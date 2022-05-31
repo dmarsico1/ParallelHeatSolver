@@ -1,6 +1,6 @@
 # ParallelHeatSolver
 
-Parallel C++ code to solve the forced heat equation in two dimensions with periodic boundary conditions on a cell-centered rectangular grid.  The MPI cartesian topology routines are used to decompose the domain into rectangles.
+Parallel C++ code to solve the forced heat equation in two dimensions with periodic boundary conditions on a cell-centered rectangular grid.  The MPI cartesian topology routines are used to decompose the domain into rectangles, and a parallel conjugate gradient method is used to solve the pressure equation.
 
 To compile: make heat
 
